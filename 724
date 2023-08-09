@@ -1,5 +1,13 @@
-<?php
-header("HTTP/1.1 301 Moved Permanently");
-header("Location: https://www.yeni-adres.com");
-exit();
-?>
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        window.onload = function() {
+            window.location.href = "https://www.yeni-adres.com";
+        };
+    </script>
+</head>
+<body>
+    <p>Sayfa yönlendiriliyor...</p>
+</body>
+</html>
